@@ -2,7 +2,7 @@
  * Emanuil Dobrev
  * CS 211
  * PROJ 5
- * Maze navigating algorithm using breadth first search
+ * Maze navigating algorithm using depth first search
  * 
  */
 
@@ -182,7 +182,7 @@ public class edobre2proj5 {
 		}
 	}
 	
-	// perform a breadth first search on the maze
+	// perform a depth first search on the maze
 	// colors visited tiles in green, and when the search backs out of a path it will color
 	// the tiles in light gray.
 	public static void DepthFirstSearch(state[][] board, GridDisplay disp, int startx, int starty,
